@@ -1,0 +1,68 @@
+/* Set a light background for better contrast */
+body {
+  background-color: #f4f4f4; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Style the card */
+.counter-container {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+/* Title */
+.counter-container h1 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Counter Value */
+.counter-container h2 {
+  font-size: 30px;
+  color: #007bff;
+  margin: 15px 0;
+}
+
+/* Button Container */
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+}
+
+.increment {
+  background-color: #28a745;
+}
+
+.decrement {
+  background-color: #dc3545;
+}
+
+.reset {
+  background-color: #007bff;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
